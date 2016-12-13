@@ -1,6 +1,6 @@
 /* Rawan Alsaadi 10081442		*
  * Omar Toutounji 10169506		*
- * Beltan Michel 10169162			*/
+ * Beltan Michel 10169162		*/
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -93,6 +93,8 @@ int main(){
 	printf("|->                                        # Line 3 #\n");
 	printf("|->                                        # Line 4 #\n");
 	printf("|->                                        # Line 5 #\n");
+	printf("Press enter to start the CISC220 Arena Race 2.0!\n");
+	getchar();
 	pthread_t tid, tid2, tid3, tid4, tid5, tid6;
 	pthread_create(&tid, NULL, userCarThread, NULL);
 	pthread_create(&tid2, NULL, car2Thread, NULL);
