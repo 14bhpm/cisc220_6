@@ -68,18 +68,23 @@ void *printThread(void *threadid){
 	
 	if (*userPtr == 40){
 		printf("Player 1 Wins!\n");
+		getchar();
 		pthread_exit(NULL);
 	} else if (*car2Ptr == 40){
 		printf("Player 2 Wins!\n");
+		getchar();
 		pthread_exit(NULL);
 	} else if (*car3Ptr == 40){
 		printf("Player 3 Wins!\n");
+		getchar();
 		pthread_exit(NULL);
 	} else if (*car4Ptr == 40){
 		printf("Player 4 Wins!\n");
+		getchar();
 		pthread_exit(NULL);
 	} else if (*car5Ptr == 40){
 		printf("Player 5 Wins!\n");
+		getchar();
 		pthread_exit(NULL);
 	}
 	usleep(200000);
